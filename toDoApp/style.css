@@ -1,0 +1,69 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial';
+	list-style: none;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container {
+	border: solid black 1px;
+	display: flex;
+	flex-direction: column;
+	background-color: whitesmoke;
+	width: 300px;
+	height: 400px;
+}
+
+.container .header {
+	border-bottom: solid black 1px;
+	padding: 5px;
+	text-align: center;
+}
+
+.options ul {
+	display: flex;
+	justify-content: space-evenly;
+	width:  100%;
+	height: 30px;
+}
+
+.options ul li {
+	display: flex;
+	width: 100%;
+	padding: 5px;
+	align-content: center;
+	padding-left: 45px;
+	border-bottom: solid black 1px;
+}
+
+.options ul li:hover {
+	background-color: lightgray;
+}
+
+.container .list .toDoList .task {
+	border-bottom: solid black 1px;
+	padding: 5px;
+}
+
+.container .inputTask input{
+	background-color: whitesmoke;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+	border: none;
+	border-bottom: solid black 1px;
+}
+
+.highlight {
+    background-color: lightblue; 
+    color: black;
+}
